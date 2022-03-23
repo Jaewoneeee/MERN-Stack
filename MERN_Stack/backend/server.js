@@ -3,7 +3,7 @@ const colors = require('colors');
 const dotenv = require('dotenv').config();
 const { errorHandler } = require('./middleware/errorMiddleware')
 const connectDB = require('./config/db')
-const  port = process.env.PORT || 5000; //env에서 가져온 port아니면 5000으로 연결
+const  port = process.env.PORT || 5000; //env에서 가져온 port아니면 8000으로 연결
 
 connectDB()
 
